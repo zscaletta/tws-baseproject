@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Dist|Win32">
+      <Configuration>Dist</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Dist|x64">
+      <Configuration>Dist</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{00A72CF0-6C67-A826-35A2-F1A3A121ED02}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DefaultEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Dist|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\Debug-windows-x86_64\DefaultEngine\</OutDir>
+    <IntDir>..\bin-int\Debug-windows-x86_64\DefaultEngine\</IntDir>
+    <TargetName>DefaultEngine</TargetName>
+    <TargetExt>.dll</TargetExt>
+    <IncludePath>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>DefaultEngine</TargetName>
+    <TargetExt>.dll</TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\Release-windows-x86_64\DefaultEngine\</OutDir>
+    <IntDir>..\bin-int\Release-windows-x86_64\DefaultEngine\</IntDir>
+    <TargetName>DefaultEngine</TargetName>
+    <TargetExt>.dll</TargetExt>
+    <IncludePath>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>DefaultEngine</TargetName>
+    <TargetExt>.dll</TargetExt>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\Dist-windows-x86_64\DefaultEngine\</OutDir>
+    <IntDir>..\bin-int\Dist-windows-x86_64\DefaultEngine\</IntDir>
+    <TargetName>DefaultEngine</TargetName>
+    <TargetExt>.dll</TargetExt>
+    <IncludePath>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|Win32'">
+    <TargetName>DefaultEngine</TargetName>
+    <TargetExt>.dll</TargetExt>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>DE_PLATFORM_WINDOWS;DE_BUILD_DLL;DE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>..\bin\Debug-windows-x86_64\DefaultEngine\DefaultEngine.lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST ..\bin\Debug-windows-x86_64\DefaultEngine\DefaultEngine.dll\ (xcopy /Q /E /Y /I ..\bin\Debug-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Debug-windows-x86_64\Sandbox &gt; nul) ELSE (xcopy /Q /Y /I ..\bin\Debug-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Debug-windows-x86_64\Sandbox &gt; nul)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>DE_PLATFORM_WINDOWS;DE_BUILD_DLL;DE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>..\bin\Debug-windows-x86_64\DefaultEngine\DefaultEngine.lib</ImportLibrary>
+      <AdditionalDependencies>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\build32\Api\Debug\tws_cpp_api.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\build32\Api\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST ..\bin\Debug-windows-x86_64\DefaultEngine\DefaultEngine.dll\ (xcopy /Q /E /Y /I ..\bin\Debug-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Debug-windows-x86_64\Sandbox &gt; nul) ELSE (xcopy /Q /Y /I ..\bin\Debug-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Debug-windows-x86_64\Sandbox &gt; nul)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>DE_PLATFORM_WINDOWS;DE_BUILD_DLL;DE_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImportLibrary>..\bin\Release-windows-x86_64\DefaultEngine\DefaultEngine.lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST ..\bin\Release-windows-x86_64\DefaultEngine\DefaultEngine.dll\ (xcopy /Q /E /Y /I ..\bin\Release-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Release-windows-x86_64\Sandbox &gt; nul) ELSE (xcopy /Q /Y /I ..\bin\Release-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Release-windows-x86_64\Sandbox &gt; nul)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>DE_PLATFORM_WINDOWS;DE_BUILD_DLL;DE_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImportLibrary>..\bin\Release-windows-x86_64\DefaultEngine\DefaultEngine.lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST ..\bin\Release-windows-x86_64\DefaultEngine\DefaultEngine.dll\ (xcopy /Q /E /Y /I ..\bin\Release-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Release-windows-x86_64\Sandbox &gt; nul) ELSE (xcopy /Q /Y /I ..\bin\Release-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Release-windows-x86_64\Sandbox &gt; nul)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>DE_PLATFORM_WINDOWS;DE_BUILD_DLL;DE_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImportLibrary>..\bin\Dist-windows-x86_64\DefaultEngine\DefaultEngine.lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST ..\bin\Dist-windows-x86_64\DefaultEngine\DefaultEngine.dll\ (xcopy /Q /E /Y /I ..\bin\Dist-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Dist-windows-x86_64\Sandbox &gt; nul) ELSE (xcopy /Q /Y /I ..\bin\Dist-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Dist-windows-x86_64\Sandbox &gt; nul)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dist|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>DE_PLATFORM_WINDOWS;DE_BUILD_DLL;DE_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api;C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared;vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImportLibrary>..\bin\Dist-windows-x86_64\DefaultEngine\DefaultEngine.lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST ..\bin\Dist-windows-x86_64\DefaultEngine\DefaultEngine.dll\ (xcopy /Q /E /Y /I ..\bin\Dist-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Dist-windows-x86_64\Sandbox &gt; nul) ELSE (xcopy /Q /Y /I ..\bin\Dist-windows-x86_64\DefaultEngine\DefaultEngine.dll ..\bin\Dist-windows-x86_64\Sandbox &gt; nul)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="src\DefaultEngine\Tws.h" />
+    <ClInclude Include="src\DefaultEngine.h" />
+    <ClInclude Include="src\DefaultEngine\Application.h" />
+    <ClInclude Include="src\DefaultEngine\Core.h" />
+    <ClInclude Include="src\DefaultEngine\EntryPoint.h" />
+    <ClInclude Include="src\DefaultEngine\Log.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DefaultEngine\Application.cpp" />
+    <ClCompile Include="src\DefaultEngine\Log.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\vendor\src\TwsApiCpp-master\TwsApiC++\build32\Api\tws_cpp_api.vcxproj">
+      <Project>{ef90a049-65b2-3511-bc40-4eefdbb7e400}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

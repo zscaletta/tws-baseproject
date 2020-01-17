@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\build32\CMakeFiles\971c2577f5516e3f8900490fc7632e50\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C4879D11-F538-3BAB-9423-1AD5B8C70F67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

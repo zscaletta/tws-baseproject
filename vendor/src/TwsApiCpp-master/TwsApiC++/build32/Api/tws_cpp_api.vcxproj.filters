@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Src\TwsApiL0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api\Enumerations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api\TwsApiDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api\TwsApiL0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\src\EClientSocketBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\src\EPosixClientSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\src\EPosixClientSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\src\EPosixClientSocketPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\CommissionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\CommonDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\Contract.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\EClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\EClientSocketBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\EClientSocketBaseImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\EWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\Execution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\IBString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\Order.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\OrderState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\ScannerSubscription.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\TagValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\TwsSocketClientErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\source\PosixClient\Shared\shared_ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\TRADER\source\repos\tws\vendor\src\TwsApiCpp-master\TwsApiC++\Api\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CC4E8E3C-AD3F-38C3-9252-7DC22F527D0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{26EA05F6-3ED5-3AF6-BB5F-268CB70E0627}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

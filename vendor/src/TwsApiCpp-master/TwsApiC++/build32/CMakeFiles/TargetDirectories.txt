@@ -1,0 +1,9 @@
+C:/Users/TRADER/source/repos/tws/vendor/src/TwsApiCpp-master/TwsApiC++/build32/CMakeFiles/ALL_BUILD.dir
+C:/Users/TRADER/source/repos/tws/vendor/src/TwsApiCpp-master/TwsApiC++/build32/CMakeFiles/ZERO_CHECK.dir
+C:/Users/TRADER/source/repos/tws/vendor/src/TwsApiCpp-master/TwsApiC++/build32/Api/CMakeFiles/tws_cpp_api.dir
+C:/Users/TRADER/source/repos/tws/vendor/src/TwsApiCpp-master/TwsApiC++/build32/Api/CMakeFiles/ALL_BUILD.dir
+C:/Users/TRADER/source/repos/tws/vendor/src/TwsApiCpp-master/TwsApiC++/build32/Test/CMakeFiles/Test.dir
+C:/Users/TRADER/source/repos/tws/vendor/src/TwsApiCpp-master/TwsApiC++/build32/Test/CMakeFiles/Clients.dir
+C:/Users/TRADER/source/repos/tws/vendor/src/TwsApiCpp-master/TwsApiC++/build32/Test/CMakeFiles/History.dir
+C:/Users/TRADER/source/repos/tws/vendor/src/TwsApiCpp-master/TwsApiC++/build32/Test/CMakeFiles/Bars.dir
+C:/Users/TRADER/source/repos/tws/vendor/src/TwsApiCpp-master/TwsApiC++/build32/Test/CMakeFiles/ALL_BUILD.dir
